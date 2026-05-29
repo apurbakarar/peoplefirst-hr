@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PeopleFirst HR | Join the Future of Technology</title>
+
+    <!-- Google Fonts: Poppins, Inter, Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Manrope:wght@300;500;800&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Custom Cursor Glow -->
+    <div class="cursor-glow"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-nav">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span class="brand-name"
+            >PeopleFirst <span class="text-gradient">HR</span></span
+          >
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#why-us">Why Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#open-positions">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#apply">Apply</a>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="btn btn-gradient px-4" href="#apply">Join Now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="floating-shapes">
+        <div class="shape s1"></div>
+        <div class="shape s2"></div>
+        <div class="shape s3"></div>
+      </div>
+      <div class="container">
+        <div class="row align-items-center min-vh-100">
+          <div class="col-lg-6 text-start" data-aos="fade-right">
+            <h1 class="hero-title">
+              <span class="title-static">Join the Future of</span>
+              <span class="word-rotator">
+                <span id="rotator-word" class="rotator-text">Dream</span>
+              </span>
+            </h1>
+            <p class="hero-subtitle">
+              We're building a world where talent meets opportunity. Experience
+              a culture of innovation, continuous growth, and unmatched
+              flexibility.
+            </p>
+            <div class="hero-btns">
+              <a href="#apply" class="btn btn-gradient btn-lg me-3"
+                >Apply Now</a
+              >
+              <a href="#open-positions" class="btn btn-outline-light btn-lg"
+                >Explore Careers</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="hero-image-container">
+              <div class="hero-glass-card">
+                <div class="code-window">
+                  <div class="code-header">
+                    <div class="dot red"></div>
+                    <div class="dot yellow"></div>
+                    <div class="dot green"></div>
+                    <span class="file-name">Career.ts</span>
+                  </div>
+                  <div class="code-content">
+                    <pre><code><span class="keyword">class</span> <span class="class-name">PeopleFirstHR</span> {<br>
+  <span class="keyword">async</span> <span class="method">hireTalent</span>(candidate: <span class="class-name">Developer</span>) {<br>
+    <span class="keyword">if</span> (candidate.skills.<span class="method">includes</span>(<span class="string">'Innovation'</span>)) {<br>
+      <span class="keyword">return</span> <span class="keyword">await</span> <span class="keyword">this</span>.<span class="method">onboard</span>(candidate);<br>
+    }<br>
+    <span class="keyword">return</span> <span class="string">'Keep Growing!'</span>;<br>
+  }<br>
+}</code></pre>
+                  </div>
+                </div>
+                <div class="experience-badge">
+                  <span class="badge-icon"
+                    ><i class="bi bi-lightning-fill"></i
+                  ></span>
+                  <span>Innovation Driven</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="row text-center">
+          <div
+            class="col-md-3 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <div class="stat-item">
+              <h2 class="stat-number" data-target="500">0</h2>
+              <p>Hires Made</p>
+            </div>
+          </div>
+          <div
+            class="col-md-3 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <div class="stat-item">
+              <h2 class="stat-number" data-target="120">0</h2>
+              <p>Companies</p>
+            </div>
+          </div>
+          <div
+            class="col-md-3 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+          >
+            <div class="stat-item">
+              <h2 class="stat-number" data-target="15">0</h2>
+              <p>Countries</p>
+            </div>
+          </div>
+          <div
+            class="col-md-3 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="400"
+          >
+            <div class="stat-item">
+              <h2 class="stat-number" data-target="98">0</h2>
+              <p>Happy Talent%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Work With Us Section -->
+    <section id="why-us" class="why-us-section">
+      <div class="container">
+        <div class="section-header text-center mb-5" data-aos="fade-up">
+          <h2 class="section-title">
+            Why Work With <span class="text-gradient">Us</span>?
+          </h2>
+          <p>
+            We don't just offer jobs; we offer careers that redefine the
+            industry.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="glass-card feature-card">
+              <div class="icon-box"><i class="bi bi-house-door-fill"></i></div>
+              <h4>Remote Friendly</h4>
+              <p>
+                Work from anywhere in the world with our fully distributed
+                infrastructure.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="glass-card feature-card">
+              <div class="icon-box">
+                <i class="bi bi-rocket-takeoff-fill"></i>
+              </div>
+              <h4>Learning & Growth</h4>
+              <p>
+                Access to premium courses, certifications, and mentorship
+                programs.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="glass-card feature-card">
+              <div class="icon-box"><i class="bi bi-cpu-fill"></i></div>
+              <h4>Innovative Team</h4>
+              <p>
+                Collaborate with the brightest minds solving complex global
+                problems.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="glass-card feature-card">
+              <div class="icon-box"><i class="bi bi-clock-history"></i></div>
+              <h4>Flexible Culture</h4>
+              <p>
+                Outcome-driven work environment with asynchronous communication.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Open Position Section -->
+    <section id="open-positions" class="positions-section">
+      <div class="container">
+        <div class="section-header text-center mb-5" data-aos="fade-up">
+          <h2 class="section-title">
+            Open <span class="text-gradient">Positions</span>
+          </h2>
+          <p>Find your dream role in our rapidly growing tech team.</p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10" data-aos="fade-up">
+            <div
+              id="jobCarousel"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <!-- Job 1: Full Stack Developer -->
+                <div class="carousel-item active">
+                  <div class="d-flex justify-content-center">
+                    <div
+                      class="job-card glass-card"
+                      style="max-width: 700px; width: 100%"
+                    >
+                      <div class="job-content">
+                        <div class="job-header">
+                          <h3 class="text-gradient">Full Stack Developer</h3>
+                          <span class="job-badge">Hot Role</span>
+                        </div>
+                        <div class="job-details">
+                          <div class="detail-item">
+                            <i class="bi bi-briefcase"></i> 2-5 Years Exp.
+                          </div>
+                          <div class="detail-item">
+                            <i class="bi bi-geo-alt"></i> Remote / Hybrid
+                          </div>
+                          <div class="detail-item">
+                            <i class="bi bi-currency-dollar"></i> Competitive
+                            Pay
+                          </div>
+                        </div>
+                        <div class="job-skills">
+                          <span class="skill-tag">React.js</span>
+                          <span class="skill-tag">Node.js</span>
+                          <span class="skill-tag">MongoDB</span>
+                          <span class="skill-tag">APIs</span>
+                          <span class="skill-tag">TypeScript</span>
+                        </div>
+                        <a
+                          href="#apply"
+                          class="btn btn-gradient w-100 mt-4"
+                          data-role="full-stack"
+                          >Apply for this Role</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Job 2: UI/UX Designer -->
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">
+                    <div
+                      class="job-card glass-card"
+                      style="max-width: 700px; width: 100%"
+                    >
+                      <div class="job-content">
+                        <div class="job-header">
+                          <h3 class="text-gradient">UI/UX Designer</h3>
+                          <span class="job-badge">Creative</span>
+                        </div>
+                        <div class="job-details">
+                          <div class="detail-item">
+                            <i class="bi bi-briefcase"></i> 1-3 Years Exp.
+                          </div>
+                          <div class="detail-item">
+                            <i class="bi bi-geo-alt"></i> Remote
+                          </div>
+                          <div class="detail-item">
+                            <i class="bi bi-currency-dollar"></i> Top Tier
+                          </div>
+                        </div>
+                        <div class="job-skills">
+                          <span class="skill-tag">Figma</span>
+                          <span class="skill-tag">Adobe XD</span>
+                          <span class="skill-tag">Prototyping</span>
+                          <span class="skill-tag">User Research</span>
+                          <span class="skill-tag">Design Systems</span>
+                        </div>
+                        <a
+                          href="#apply"
+                          class="btn btn-gradient w-100 mt-4"
+                          data-role="uiux"
+                          >Apply for this Role</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Job 3: DevOps Engineer -->
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">
+                    <div
+                      class="job-card glass-card"
+                      style="max-width: 700px; width: 100%"
+                    >
+                      <div class="job-content">
+                        <div class="job-header">
+                          <h3 class="text-gradient">DevOps Engineer</h3>
+                          <span class="job-badge">Infrastructure</span>
+                        </div>
+                        <div class="job-details">
+                          <div class="detail-item">
+                            <i class="bi bi-briefcase"></i> 3-7 Years Exp.
+                          </div>
+                          <div class="detail-item">
+                            <i class="bi bi-geo-alt"></i> Hybrid
+                          </div>
+                          <div class="detail-item">
+                            <i class="bi bi-currency-dollar"></i> High Range
+                          </div>
+                        </div>
+                        <div class="job-skills">
+                          <span class="skill-tag">AWS/GCP</span>
+                          <span class="skill-tag">Kubernetes</span>
+                          <span class="skill-tag">Docker</span>
+                          <span class="skill-tag">CI/CD</span>
+                          <span class="skill-tag">Terraform</span>
+                        </div>
+                        <a
+                          href="#apply"
+                          class="btn btn-gradient w-100 mt-4"
+                          data-role="devops"
+                          >Apply for this Role</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Job 4: Backend Architect -->
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">
+                    <div
+                      class="job-card glass-card"
+                      style="max-width: 700px; width: 100%"
+                    >
+                      <div class="job-content">
+                        <div class="job-header">
+                          <h3 class="text-gradient">Backend Architect</h3>
+                          <span class="job-badge">Expert</span>
+                        </div>
+                        <div class="job-details">
+                          <div class="detail-item">
+                            <i class="bi bi-briefcase"></i> 5+ Years Exp.
+                          </div>
+                          <div class="detail-item">
+                            <i class="bi bi-geo-alt"></i> Remote
+                          </div>
+                          <div class="detail-item">
+                            <i class="bi bi-currency-dollar"></i> Executive
+                          </div>
+                        </div>
+                        <div class="job-skills">
+                          <span class="skill-tag">Go/Java</span>
+                          <span class="skill-tag">Microservices</span>
+                          <span class="skill-tag">PostgreSQL</span>
+                          <span class="skill-tag">Redis</span>
+                          <span class="skill-tag">System Design</span>
+                        </div>
+                        <a
+                          href="#apply"
+                          class="btn btn-gradient w-100 mt-4"
+                          data-role="backend"
+                          >Apply for this Role</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#jobCarousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#jobCarousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Application Form Section -->
+    <section id="apply" class="apply-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right">
+            <div class="form-info">
+              <h2 class="section-title text-start">
+                Start Your <span class="text-gradient">Journey</span>
+              </h2>
+              <p>
+                Fill out the form and let's talk about how you can make a
+                difference at PeopleFirst HR.
+              </p>
+              <div class="info-list">
+                <div class="info-item">
+                  <i class="bi bi-check-circle-fill text-gradient"></i> Quick
+                  Application Process
+                </div>
+                <div class="info-item">
+                  <i class="bi bi-check-circle-fill text-gradient"></i> Direct
+                  feedback within 7 days
+                </div>
+                <div class="info-item">
+                  <i class="bi bi-check-circle-fill text-gradient"></i>
+                  Confidential handling of data
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7" data-aos="fade-left">
+            <div class="glass-card application-form-container">
+              <form id="applicationForm" class="needs-validation" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <div class="mb-3">
+                      <label for="fullName" class="form-label">Full Name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="fullName"
+                        placeholder="Enter your full name"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mb-3">
+                      <label for="email" class="form-label"
+                        >Email Address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="name@example.com"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mb-3">
+                      <label for="role" class="form-label"
+                        >Role Applying For</label
+                      >
+                      <select class="form-select" id="role" required>
+                        <option value="" selected disabled>Select Role</option>
+                        <option value="full-stack">Full Stack Developer</option>
+                        <option value="frontend">Frontend Developer</option>
+                        <option value="backend">Backend Developer</option>
+                        <option value="devops">DevOps Engineer</option>
+                        <option value="uiux">UI/UX Designer</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mb-3">
+                      <label for="experience" class="form-label"
+                        >Years of Experience</label
+                      >
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="experience"
+                        placeholder="e.g. 3"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="mb-3">
+                      <label for="note" class="form-label"
+                        >Why are you interested?</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="note"
+                        placeholder="Tell us a bit about yourself..."
+                        style="height: 100px"
+                        required
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12 mt-4">
+                    <div
+                      id="formError"
+                      class="alert alert-danger d-none"
+                      role="alert"
+                    ></div>
+                    <button
+                      type="submit"
+                      class="btn btn-gradient w-100 py-3"
+                      id="submitBtn"
+                    >
+                      <span class="btn-text">Submit Application</span>
+                      <div
+                        class="spinner-border spinner-border-sm d-none"
+                        role="status"
+                        aria-hidden="true"
+                      ></div>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+      <div class="container">
+        <div class="section-header text-center mb-5" data-aos="fade-up">
+          <h2 class="section-title">
+            Employee <span class="text-gradient">Stories</span>
+          </h2>
+          <p>Hear from our amazing team members about their experience.</p>
+        </div>
+        <div
+          id="testimonialCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="glass-card testimonial-card mx-auto"
+                style="max-width: 700px"
+              >
+                <div class="testimonial-content">
+                  <div class="user-profile">
+                    <img src="https://i.pravatar.cc/150?u=1" alt="Employee" />
+                    <div class="user-info">
+                      <h5>Sarah Jenkins</h5>
+                      <span>Senior Backend Engineer</span>
+                    </div>
+                  </div>
+                  <p class="feedback">
+                    "The level of trust and ownership given to engineers here is
+                    incredible. I've grown more in 2 years at PeopleFirst HR
+                    than in 5 years elsewhere."
+                  </p>
+                  <div class="stars">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="glass-card testimonial-card mx-auto"
+                style="max-width: 700px"
+              >
+                <div class="testimonial-content">
+                  <div class="user-profile">
+                    <img src="https://i.pravatar.cc/150?u=2" alt="Employee" />
+                    <div class="user-info">
+                      <h5>Marcus Thorne</h5>
+                      <span>UI/UX Designer</span>
+                    </div>
+                  </div>
+                  <p class="feedback">
+                    "The design-first culture here is inspiring. We use the
+                    latest tools and have a voice in product decisions from day
+                    one."
+                  </p>
+                  <div class="stars">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="glass-card testimonial-card mx-auto"
+                style="max-width: 700px"
+              >
+                <div class="testimonial-content">
+                  <div class="user-profile">
+                    <img src="https://i.pravatar.cc/150?u=3" alt="Employee" />
+                    <div class="user-info">
+                      <h5>Elena Rodriguez</h5>
+                      <span>Frontend Architect</span>
+                    </div>
+                  </div>
+                  <p class="feedback">
+                    "Remote work is actually practiced here. The async culture
+                    is a dream, and the benefits are truly world-class."
+                  </p>
+                  <div class="stars">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="custom-footer">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4">
+            <a class="navbar-brand mb-3 d-block" href="#">
+              <span class="brand-name"
+                >PeopleFirst <span class="text-gradient">HR</span></span
+              >
+            </a>
+            <p>
+              Redefining recruitment for the digital age. We connect the world's
+              best tech talent with the most innovative companies.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-github"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h5>Quick Links</h5>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#why-us">Why Us</a></li>
+              <li><a href="#open-positions">Open Roles</a></li>
+              <li><a href="#apply">Apply Now</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h5>Company</h5>
+            <ul class="footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Culture</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <h5>Contact Us</h5>
+            <p>Questions? Reach out to us!</p>
+            <a href="mailto:careers@peoplefirsthr.com" class="contact-email"
+              >careers@peoplefirsthr.com</a
+            >
+          </div>
+        </div>
+        <div class="footer-bottom text-center">
+          <p>
+            &copy; 2026 PeopleFirst HR. All rights reserved. Built with
+            <span class="text-gradient">Passion</span>.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div
+        id="successToast"
+        class="toast align-items-center text-white bg-success border-0"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+      >
+        <div class="d-flex">
+          <div class="toast-body">
+            Application submitted successfully! Please check your email for
+            confirmation.
+          </div>
+          <button
+            type="button"
+            class="btn-close btn-close-white me-2 m-auto"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
