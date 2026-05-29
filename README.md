@@ -8,7 +8,7 @@ PeopleFirst HR is a professional, high-performance recruitment landing page desi
 - **Dynamic Career Hub**: An interactive carousel showcasing open positions with role-specific tags and a seamless "Apply Now" transition.
 - **Automated Workflow**: Integration with **n8n** for zero-manual-effort application processing.
 - **Smart Notifications**: Automated, professionally designed HTML email triggers for both candidates (confirmation) and administrators (new application alert).
-- **Interactive Elements**: 
+- **Interactive Elements**:
   - Dynamic word rotation in the hero section.
   - Animated statistics counter that triggers on scroll.
   - Real-time form validation with loading states and toast notifications.
@@ -17,6 +17,7 @@ PeopleFirst HR is a professional, high-performance recruitment landing page desi
 ## 🛠️ Technology Stack
 
 ### Frontend
+
 - **Language**: HTML5, CSS3, JavaScript (ES6+)
 - **Framework**: [Bootstrap 5](https://getbootstrap.com/)
 - **Icons**: [Bootstrap Icons](https://icons.getbootstrap.com/)
@@ -24,6 +25,7 @@ PeopleFirst HR is a professional, high-performance recruitment landing page desi
 - **Typography**: Google Fonts (Poppins, Inter, Manrope)
 
 ### Backend & Automation
+
 - **Workflow Engine**: [n8n](https://n8n.io/) (Self-hosted/Cloud)
 - **Integration**: REST API / Webhooks
 - **Communication**: SMTP / Email Automation
@@ -32,7 +34,7 @@ PeopleFirst HR is a professional, high-performance recruitment landing page desi
 
 1. **User Application**: The candidate fills out the application form on the frontend.
 2. **Webhook Trigger**: Upon submission, data is sent via a `POST` request to a specific **n8n Webhook URL**.
-3. **n8n Workflow**: 
+3. **n8n Workflow**:
    - Receives the JSON payload.
    - Processes the data.
    - Triggers two parallel email workflows.
@@ -43,20 +45,23 @@ PeopleFirst HR is a professional, high-performance recruitment landing page desi
 ## 📸 Visuals
 
 ### Website Frontend
-| Hero Section | Career Hub | Application Form |
-| :---: | :---: | :---: |
+
+|                        Hero Section                         |                         Career Hub                          |                      Application Form                       |
+| :---------------------------------------------------------: | :---------------------------------------------------------: | :---------------------------------------------------------: |
 | ![Frontend 1](./Screenshots/Website%20Frontend%20-%201.png) | ![Frontend 2](./Screenshots/Website%20Frontend%20-%202.png) | ![Frontend 3](./Screenshots/Website%20Frontend%20-%203.png) |
 
 ### Automation & Emails
-| n8n Workflow | Candidate Email | Admin Email |
-| :---: | :---: | :---: |
+
+|                 n8n Workflow                  |                      Candidate Email                       |                    Admin Email                     |
+| :-------------------------------------------: | :--------------------------------------------------------: | :------------------------------------------------: |
 | ![Workflow](./Screenshots/N8N%20WorkFlow.png) | ![Candidate Mail](./Screenshots/Mail%20to%20Candidate.png) | ![Admin Mail](./Screenshots/Mail%20to%20Admin.png) |
 
 ## 🚀 Setup and Installation
 
 1. **Clone the repository**:
+
    ```bash
-   git clone https://github.com/your-username/peoplefirst-hr.git
+   git clone https://github.com/apurbakarar/peoplefirst-hr.git
    cd peoplefirst-hr
    ```
 
@@ -73,7 +78,9 @@ PeopleFirst HR is a professional, high-performance recruitment landing page desi
    - Simply open `index.html` in any modern web browser.
 
 ## 📄 License
+
 This project is developed for professional recruitment purposes. Feel free to use it as a template for your own HR automation projects.
 
 ---
-*Built with ❤️ and Passion for Technology.*
+
+_Built with ❤️ and Passion for Technology._
